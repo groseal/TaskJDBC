@@ -10,7 +10,7 @@ public class Main {
         userService.saveUser("3", "03", (byte) 13);
         userService.saveUser("4", "04", (byte) 14);
 
-        System.out.println(userService.getAllUsers());
+//         System.out.println(userService.getAllUsers());
         userService.cleanUsersTable();
         userService.dropUsersTable();
     }
